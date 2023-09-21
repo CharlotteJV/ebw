@@ -1,0 +1,21 @@
+/* Css responsive 768px */
+
+
+@media screen and (max-width:768px) {
+/* Css header */
+    .ntf_header .ntf_header-right {
+        display: none;
+    }
+
+    .ntf_header .tool-bar {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Css responsive <= 418px */
+ @media screen and (max-width: 418px) {
+    .ntf_profileImage img {
+        left: 30%;
+    }
+}
